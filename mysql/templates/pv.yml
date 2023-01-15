@@ -5,8 +5,8 @@ metadata:
 spec:
   storageClassName: nodestorage
   capacity:
-    storage: 10Gi #thin provision not thick. 
+    storage: 10Gi  
   accessModes:
-    - ReadWriteOnce #ReadWriteMany #Read
+    - ReadWriteOnce 
   hostPath:
     path: /mnt/data
